@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>E-Learning GIBS</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="newfrontend/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://www.dafontfree.net/embed/Y2VudHVyeS1nb3RoaWMtcmVndWxhciZkYXRhLzQwL2MvMTAxOTUwL0dPVEhJQy5UVEY" rel="stylesheet" type="text/css"/>
+
+  <!-- Vendor CSS Files -->
+  <link href="newfrontend/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="newfrontend/assets/css/index1Style.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- ======Header======== -->
+<header id="header" class="fixed-top header-transparent ">
+        <div class="container d-flex align-items-center justify-content-between">
+             
+            <div class="logo">
+                <h1><a href="index2.html"><b>LMS <span>GIBS</span></b></a></h1>
+            </div>
+                <nav id="navbar" class="navbar">
+                    <ul>
+                    <li><a class="nav-link scrollto active" href="index2.html"><b>HOME</b></a></li>
+          <li><a class="nav-link scrollto" href="blog-list.html"><b>GIBS ARJUNA</b></a></li>
+          <li class="dropdown"><a href="#"><span><b>PROFILE</b></span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+            <li><a class="nav-link scrollto" href="about.html"><b>About</b></a></li>
+              <li><a href="program.html"><b>Programs</b></a></li>
+              <li><a href="gallery.html"><b>Gallery</b></a></li>
+              <li><a href="academic.html"><b>Academic</b></a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="contact.html"><b>CONTACT US</b></a></li>
+          
+                    <!-- @guest -->
+                        <li><a class="getstarted scrollto" href="login.html"><b>Login / Sign Up</b></a></li>
+                    <!-- @else
+                        <li class="dropdown"><a href="#"><span>{{ Auth::user()->first_name }} &nbsp;</span> 
+                            <i class="bi bi-chevron-down"></i></a>
+                            <ul>
+                                @if(Auth::user()->hasRole('instructor'))
+                                    <li><a href="{{ route('instructor.dashboard') }}"> Instructor</a></li>
+                                @elseif(Auth::user()->hasRole('admin'))
+                                    <li><a href="{{ route('admin.dashboard') }}"> Admin</a></li>
+                                @elseif(Auth::user()->hasRole('student'))
+                                    <li><a href="{{ route('course.list') }}"> My Course</a></li>
+                                    <li><a href="#!"> Absent</a></li>
+                                    <li><a href="{{route('student.profile')}}"> Profile</a></li>
+                                @endif
+                                    <li><a href="{{ route('logOut') }}"> Logout</a></li>
+                            </ul>
+                        </li>
+                    @endguest -->
+                    </ul>
+                        <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav><!-- .navbar -->
+
+        </div>
+    </header>
+
+
+<!-- content start -->
+<main id="main">
+    <section id="bg-contact" class="bg-contact">
+      <div class="container">
+
+      <section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">CONTACT US</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-12">
+					<div class="wrapper">
+						<div class="row no-gutters mb-5">
+							<div class="col-md-7">
+								<div class="contact-wrap w-100 p-md-5 p-4">
+									<div id="form-message-warning" class="mb-4"></div> 
+				      		<div id="form-message-success" class="mb-4">
+				            Your message was sent, thank you!
+				      		</div>
+									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="label" for="name">Full Name</label>
+													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+												</div>
+											</div>
+											<div class="col-md-6"> 
+												<div class="form-group">
+													<label class="label" for="email">Email Address</label>
+													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="subject">Subject</label>
+													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="#">Message</label>
+													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Send Message" class="btn btn-primary">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-md-5 d-flex align-items-stretch">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15933.925901316828!2d114.5989091!3d-3.2296474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x97af7aefc2dd490f!2sGIBS%20(Global%20Islamic%20Boarding%20School)!5e0!3m2!1sen!2sid!4v1637367200244!5m2!1sen!2sid" width="600" height="490" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<div class="dbox w-100 text-center">
+			        		<div class="icon d-flex align-items-center justify-content-center">
+			        			<span class="bx bxl-periscope"></span>
+			        		</div>
+			        		<div class="text">
+				                <p><span>Address:</span> Jl. Trans Kalimantan, Sungai Lumbah Alalak, Barito Kuala Kalimantan Selatan 70582</p>
+				          </div>
+			          </div>
+							</div>
+							<div class="col-md-3">
+								<div class="dbox w-100 text-center">
+			        		<div class="icon d-flex align-items-center justify-content-center">
+			        			<span class="bx bx-phone"></span>
+			        		</div>
+			        		<div class="text">
+				            <p><span>Phone:</span> <a href="tel:(0511) 3356777">(0511) 3356777</a></p>
+				          </div>
+			          </div>
+							</div>
+							<div class="col-md-3">
+								<div class="dbox w-100 text-center">
+			        		<div class="icon d-flex align-items-center justify-content-center">
+			        			<span class="bx bxs-envelope"></span>
+			        		</div>
+			        		<div class="text">
+				            <p><span>Email:</span> <a href="marketing@gibs.sch.id">marketing@gibs.sch.id</a></p>
+				          </div>
+			          </div>
+							</div>
+							<div class="col-md-3">
+								<div class="dbox w-100 text-center">
+			        		<div class="icon d-flex align-items-center justify-content-center">
+			        			<span class="bx bx-globe"></span>
+			        		</div>
+			        		<div class="text">
+				            <p><span>Website</span> <a href="https://www.gibs.sch.id/">gibs.sch.id</a></p>
+				          </div>
+			          </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+        </div>
+    </section>
+
+</main>
+        <!-- ======= Footer ======= -->
+        <footer id="footer-contact" class="footer-contact">
+            <div class="footer-contact-top">
+            <div class="container">
+                <div class="row">
+
+                <div class="col-lg-3 col-md-6 footer-contact-contact">
+                    <h3>SMP/SMA Global Islamic School</h3>
+                    <p>
+                    Jl. Trans Kalimantan, Sungai Lumbah <br>
+                    Alalak, Barito Kuala<br>
+                    Kalimantan Selatan 70582 <br><br>
+                    <strong>Phone:</strong> +1 5589 55488 55<br>
+                    <strong>Email:</strong> info@example.com<br>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-contact-links">
+                    <h4>Organisasi</h4>
+                    <ul>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">SOGIBS</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">CRC</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="#">CBT</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-contact-links">
+                    <h4>Blog</h4>
+                    <ul>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Ujian GIBS</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Biografi Tokoh</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Mata Pelajaran</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Pusat Bantuan</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-contact-links">
+                    <h4>Sosial Media</h4>
+                    <div class="social-links mt-3">
+                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+            </div>
+            <div class="container py-4">
+                <div class="copyright">
+                    &copy; Copyright @2021 <strong><span>GLOBAL ISLAMIC BOARDING SCHOOL</span></strong>. All Rights Reserved
+                </div>
+            </div>
+        </footer><!-- End Footer -->
+        
+<!-- Vendor JS Files -->
+  <script src="newfrontend/assets/vendor/contact/js/popper-contact.js"></script>
+  <script src="newfrontend/assets/vendor/contact/js/bootstrap-contact.min.js"></script>
+  <script src="newfrontend/assets/vendor/contact/js/jquery-contact.validate.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYETLox-X-HvVy4tRFn7U2w0R33Xvmaqg&callback=initMap&v=weekly" async></script>
+  <script src="newfrontend/assets/vendor/contact/js/google-map-contact-v2.js"></script>
+  <script src="newfrontend/assets/vendor/contact/js/jquery-contact.min.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="newfrontend/assets/js/main-contact.js"></script>
+  
+
+</body>
+
+</html>

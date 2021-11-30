@@ -1,0 +1,1063 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>E-Learning GIBS</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="newfrontend/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Lobster&family=PT+Sans&family=Road+Rage&family=Rubik:wght@300&family=Shippori+Antique+B1&family=Work+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Lobster&family=Oleo+Script:wght@700&family=PT+Sans&family=Road+Rage&family=Rubik:wght@300&family=Shippori+Antique+B1&family=Work+Sans&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="newfrontend/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/animate-2.css/animate.min.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/aos-2/aos.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/bootstrap-2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/bootstrap-icons-2/bootstrap-icons.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/boxicons-2/css/boxicons.min.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/glightbox-2/css/glightbox.min.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/remixicon-2/remixicon.css" rel="stylesheet">
+  <link href="newfrontend/assets/vendor/swiper-2/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="newfrontend/assets/css/index1Style.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index2.html"><b>LMS <span>GIBS</span></b></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+        <li><a class="nav-link scrollto active" href="index2.html"><b>HOME</b></a></li>
+          <li><a class="nav-link scrollto" href="blog-list.html"><b>GIBS ARJUNA</b></a></li>
+          <li class="dropdown"><a href="#"><span><b>PROFILE</b></span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+            <li><a class="nav-link scrollto" href="about.html"><b>About</b></a></li>
+              <li><a href="program.html"><b>Programs</b></a></li>
+              <li><a href="gallery.html"><b>Gallery</b></a></li>
+              <li><a href="academic.html"><b>Academic</b></a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="contact.html"><b>CONTACT US</b></a></li>
+          
+
+          <!-- @guest -->
+          <li><a class="getstarted scrollto" href="login.html"><b>Login / Sign Up</b></a></li>
+          <!-- @else -->
+          <!-- <li class="dropdown"><a href="#"><span>
+            {{ Auth::user()->first_name }} &nbsp;
+          </span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              @if(Auth::user()->hasRole('instructor'))
+                <li><a href="{{ route('instructor.dashboard') }}"> Instructor</a></li>
+              @elseif(Auth::user()->hasRole('admin'))
+                <li><a href="{{ route('admin.dashboard') }}"> Admin</a></li>
+              @elseif(Auth::user()->hasRole('student'))
+                <li><a href="{{ route('course.list') }}"> Mapel Saya</a></li>
+                <li><a href="#!"> Absensi</a></li>
+                <li><a href="{{route('student.profile')}}"> Profil</a></li>
+              @endif
+              <li><a href="{{ route('logOut') }}"> Logout</a></li>
+            </ul>
+          </li>
+          @endguest -->
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- Section Hero -->
+  <section id="hero-inform" class="hero-inform">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="carousel-container">
+            <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
+              <div class="box1">
+                <h1>
+                  "Never lost hope, because it is the key to achieve all your dreams"
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
+              <div class="box1">
+                  <h1>"Change your life today. Don't gamble on the future, act now, without delay."<p>(Simone de Beauvoir)</p></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+          <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
+          <div class="box1">
+            <h1>"Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young"</h1>
+          </div>
+          </div>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+          <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
+          <div class="box1">
+            <h1>"Practice makes us right, repetitions make us perfect"</h1>
+          </div>
+          </div>
+          </div>
+        </div>
+        
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+    </div>
+  </section><!-- End Hero -->
+
+<main id="main">
+  
+  <!-- count section (content 6) -->
+  <section id="work" class="work1">
+    <div class="container" data-aos="fade-up">
+        <h2>== Personal GIBS ==</h2><br>
+    </div>
+  </section>
+  <!-- End Counts Section -->
+
+  <!-- ======= work Section (Content 2)======= -->
+  <section id="work-teacher" class="work-teacher">
+    <div class="container">
+      <div class="work-up">
+        <div class="row" data-aos="zoom-in">
+            <div>
+              <img src="newfrontend/assets/img/teacher/logo1.png" alt="" style="width: 200px; height: 80px">
+            </div>
+            <div class="col-lg-3 col-6 text-center picture-item">
+              <a href="newfrontend/assets/img/teacher/mr rijali.png" class="picture-lightbox" data-gall="picture-item">
+                <img src="newfrontend/assets/img/teacher/mr rijali.png" class="img-fluid " alt=""><br>
+              </a>
+                <h5><b>M. Rijali Riyadi, S.Pd </b></h5>
+                <h6>Kepala Sekolah SMA GIBS</h6>
+            </div>
+
+          <div class="col-lg-3 col-6 text-center picture-item">
+            <a href="newfrontend/assets/img/teacher/mr ali.png" class="picture-lightbox" data-gall="picture-item">
+              <img src="newfrontend/assets/img/teacher/mr ali.png" class="img-fluid" alt="">
+            </a>
+              <h5><b>Ali Harun, S.Pd., M.Pd. </b></h5>
+              <h6>Kepala Sekolah SMP GIBS</h6>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center picture-item">
+            <a href="newfrontend/assets/img/teacher/ms desnalia.png" class="picture-lightbox" data-gall="picture-item">
+              <img src="newfrontend/assets/img/teacher/ms desnalia.png" class="img-fluid" alt="">
+            </a>
+              <h5><b>Desnalia Sari, S.Pd. </b></h5>
+              <h6>Head of Learning Innovation</h6>
+          </div>
+        </div>
+
+        <div class="row" data-aos="zoom-in">
+          <div>
+            <img src="newfrontend/assets/img/teacher/logo2.png" alt="" style="width: 400px; height: 80px">
+          </div>
+          <div class="col-lg-3 col-6 text-center picture-item">
+            <a href="newfrontend/assets/img/teacher/ms rinda.png" class="picture-lightbox" data-gall="picture-item">
+              <img src="newfrontend/assets/img/teacher/ms rinda.png" class="img-fluid" alt=""><br>
+            </a>
+              <h5><b>Rinda Syatwuri P., S.Pd. </b></h5>
+              <h6>Head of After-School Program</h6>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center picture-item">
+            <a href="newfrontend/assets/img/teacher/mr khairunurrasyid.png" class="picture-lightbox" data-gall="picture-item">
+              <img src="newfrontend/assets/img/teacher/mr khairunurrasyid.png" class="img-fluid" alt="">
+            </a>
+              <h5><b>M. Khairunurrasyid, S.H.</b></h5>
+              <h6>Head of Male Dormitory</h6>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center picture-item">
+            <a href="newfrontend/assets/img/teacher/ms jumiati.png" class="picture-lightbox" data-gall="picture-item">
+              <img src="newfrontend/assets/img/teacher/ms jumiati.png" class="img-fluid" alt="">
+            </a>
+              <h5><b>Jumiati, S.H.I. </b></h5>
+              <h6>Head of Female Dormitory</h6>
+          </div>
+        </div>
+
+        <div class="row" data-aos="zoom-in">
+          <div>
+            <img src="newfrontend/assets/img/teacher/logo3.png" alt="" style="width: 175px; height: 80px">
+          </div>
+          <div class="col-lg-3 col-6 text-center picture-item">
+            <a href="newfrontend/assets/img/teacher/foto1.png" class="picture-lightbox" data-gall="picture-item">
+              <img src="newfrontend/assets/img/teacher/foto1.png" class="img-fluid" alt=""><br>
+            </a>
+              <h5><b>Ahmad Afryan., S.IP</b></h5>
+              <h6>Koordinator BCTI</h6>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center picture-item">
+            <a href="newfrontend/assets/img/teacher/foto1.png" class="picture-lightbox" data-gall="picture-item">
+              <img src="newfrontend/assets/img/teacher/foto1.png" class="img-fluid" alt="">
+            </a>
+              <h5><b>Reezky Pradata Sanjaya S.I.P.</b></h5>
+              <h6>Head of Digital Marketing Guruinovatif.id</h6>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center picture-item">
+            <a href="newfrontend/assets/img/teacher/foto1.png" class="picture-lightbox" data-gall="picture-item">
+              <img src="newfrontend/assets/img/teacher/foto1.png" class="img-fluid" alt="">
+            </a>
+              <h5><b>Rosaliana Intan Pitaloka, M.Pd</b></h5>
+              <h6>Head of Sales & Marketing Guruinovatif.id</h6>
+          </div>
+        </div>
+
+        <div class="row" data-aos="zoom-in">
+          <div>
+            <img src="newfrontend/assets/img/teacher/logo4.png" alt="" style="width: 300px; height: 80px">
+          </div>
+          <div class="col-lg-3 col-6 text-center picture-item">
+          <a href="newfrontend/assets/img/teacher/foto1.png" class="picture-lightbox" data-gall="picture-item">
+            <img src="newfrontend/assets/img/teacher/foto1.png" class="img-fluid" alt=""><br>
+          </a>
+              <h5><b>M. Al faridho Awwal</b></h5>
+              <h6>Alumni SMA GIBS Angakatan 2, Peneliti dan Konsultan Keuangan Mandiri</h6>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center picture-item">
+          <a href="newfrontend/assets/img/teacher/foto1.png" class="picture-lightbox" data-gall="picture-item">
+            <img src="newfrontend/assets/img/teacher/foto1.png" class="img-fluid" alt="">
+          </a>
+              <h5><b>Wawan Prasetyo</b></h5>
+              <h6>Alumni SMA GIBS Angkatan 3, Ketua Umum Koperasi Mahasiswa Bumi Siliwangi UPI</h6>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center picture-item">
+          <a href="newfrontend/assets/img/teacher/foto1.png" class="picture-lightbox" data-gall="picture-item">
+            <img src="newfrontend/assets/img/teacher/foto1.png" class="img-fluid" alt="">
+          </a>
+              <h5><b>Hafidz Ridha Try Sjahputra, S.I.P.</b></h5>
+              <h6>Alumni SMA GIBS Angkatan 1, Master Student of International Relations, Monash University, Australia</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+  <!-- End work section -->
+<section id="portfolio-academic" class="portfolio-academic">
+  <div class="container">
+    <div class="row" data-aos="fade-up">
+      <h1><b> Teacher<span><b>GIBS</b></span></b></h1>
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active"><b>All</b></li>
+            <li data-filter=".filter-teacher-after"><b>Teacher After School</b></li>
+            <li data-filter=".filter-teacher-at"><b>Teacher At School</b></li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="row portfolio-container" data-aos="fade-up">
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/Adi jumadi.png"  style="width: 305px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Adi Jumadi, S.Pd</h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/Adi jumadi.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=" Adi Jumadi, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/alpianor.png" style="width: 300px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4> Alpianor, S.TH.I</h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/alpianor.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=" Alpianor, S.TH.I "><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/heri miswar.png" style="width: 305px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4> Heri Miswar, SHI</h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/heri miswar.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Heri Miswar, SHI"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/khafidzin.png" style="width: 310px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4> Khafidzin, S.Ag</h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/khafidzin.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Khafidzin, S.Ag"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/khairun nor rasyid.png" style="width: 305px; height: 300px"  class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>M. Khairun Nor Rasyid, S.H.</h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/khairun nor rasyid.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="M. Khairun Nor Rasyid, S.H."><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/zainul wathani.png" style="width: 305px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4> M. Zainul Wathani, M.Si</h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/zainul wathani.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=" M. Zainul Wathani, M.Si"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/muhammad taufiq.png" style="width: 305px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Muhammad Taufiq</h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/muhammad taufiq.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Muhammad Taufiq"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/salman.png" style="width: 305px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Salman, S.Psi.I </h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/salman.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Salman, S.Psi.I"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/elisa putri.png" style="width: 325px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4> Elisa Putri, S.Pd</h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/elisa putri.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Elisa Putri, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/hilaliyah.png" style="width: 325px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Hilaliyah, S.Pd</h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/hilaliyah.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Hilaliyah, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/jumiati.png" style="width: 325px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Jumiati , S.H.I</h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/jumiati.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Jumiati , S.H.I"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/khairatun ni'mah.png" style="width: 325px; height: 300px"  class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4> Khairatun Ni'mah Anissa, S.E</h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/khairatun ni'mah.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Khairatun Ni'mah Anissa, S.E"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/khairun nikmah.png" style="width: 325px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Khairun Nikmah, S.Pd </h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/khairun nikmah.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Khairun Nikmah, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/nawugita.png" style="width: 325px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Nawugita Uzinavia, S.E.</h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/nawugita.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Nawugita Uzinavia, S.E."><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/nurhidayati.png"  style="width: 325px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Nurhidayati, S.Pd</h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/nurhidayati.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Nurhidayati, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/rinda.png"  style="width: 325px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Rinda Syatwuri Prehatnawati, S.Pd</h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/rinda.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Rinda Syatwuri Prehatnawati, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-after">
+        <img src="newfrontend/assets/img/gallery/tina aris.png"  style="width: 315px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Tina Aris Perhati, S.Stat</h4>
+          <p>Teacher After School</p>
+          <a href="newfrontend/assets/img/gallery/tina aris.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Tina Aris Perhati, S.Stat"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/ade syaputra.png" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Ade Syaputra, S.S</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/ade syaputra.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Ade Syaputra, S.S"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/agus mulyana.png" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Agus Mulyana, S.Pd.Gr</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/agus mulyana.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Agus Mulyana, S.Pd.Gr"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/alfi hidayat.png" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4> Muhammad Alfi Hidayat, S.Th.I </h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/alfi hidayat.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Muhammad Alfi Hidayat, S.Th.I"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/ali harun.png" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Ali Harun, M.Pd </h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/ali harun.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Ali Harun, M.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/awaludin.png" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Awaludin, M.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/awaludin.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Awaludin, M.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/azhari wahyo widodo.png" style="width: 325px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Azhari Wahyo Widodo, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/azhari wahyo widodo.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Azhari Wahyo Widodo, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/bayu ramadhan.png" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Bayu Ramadhan, S.Psi., M.Ed.</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/bayu ramadhan.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Bayu Ramadhan, S.Psi., M.Ed."><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/endik panjaitan.png" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4> Endik Panjaitan, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/endik panjaitan.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Endik Panjaitan, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/H. Hanafi.png" style="width: 340px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>H. Hanafi, S.Th.I, M.A</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/H. Hanafi.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="H. Hanafi, S.Th.I, M.A"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/kurniawan.png" style="width: 360px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Kurniawan, S.T</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/kurniawan.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Kurniawan, S.T"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/M. Mustain.png" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Muhammad Mustain, S.Si</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/M. Mustain.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Muhammad Mustain, S.Si"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/reza.png" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>M. Reza Pahlevi, S.Ked</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/reza.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="M. Reza Pahlevi, S.Ked"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/maulana.png" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Maulana, Lc </h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/maulana.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Maulana, Lc"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/M. Amin.png" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Muhammad Amin, S.Pd.I, M.A</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/M. Amin.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Muhammad Amin, S.Pd.I, M.A"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/M. Anshori.png" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Muhammad Anshori, M.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/M. Anshori.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Muhammad Anshori, M.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/M. Rijali.png" style="width: 345px; height: 320px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Muhammad Rijali Riyadi, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/M. Rijali.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Muhammad Rijali Riyadi, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/M. Zamrony.png" style="width: 345px; height: 320px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Muhammad Zamrony, Lc</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/M. Zamrony.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Muhammad Zamrony, Lc"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/Niko rahmad.png" style="width: 345px; height: 320px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Niko Rahmad Aprilyanto, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/Niko rahmad.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Niko Rahmad Aprilyanto, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/rahmat dwi.png" style="width: 345px; height: 320px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Rahmat Dwi Purwanto, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/rahmat dwi.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Rahmat Dwi Purwanto, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/randi.png" style="width: 345px; height: 320px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Randi Ahmad Irwanto, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/randi.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Randi Ahmad Irwanto, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/taufik hidayat.png" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Taufik Hidayat, S.Si</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/taufik hidayat.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Taufik Hidayat, S.Si"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/tony.png"  style="width: 345px; height: 320px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Tony Prastio Aribowo, S.Pd </h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/tony.png"  data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Tony Prastio Aribowo, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/ubaidillah.png" style="width: 345px; height: 320px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Ubaidillah, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/ubaidillah.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Ubaidillah, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/yudisthira.png" style="width: 365px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Yudhistira Abdi Atmanegara, S.Si</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/yudisthira.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Yudhistira Abdi Atmanegara, S.Si"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/aulya.png" style="width: 360px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Aulya Rachmadia Mayta Putri, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/aulya.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Aulya Rachmadia Mayta Putri, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/desnalia.png" style="width: 360px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Desnalia Sari, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/desnalia.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Desnalia Sari, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/dea amanda.png" style="width: 360px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Dhea Amanda, S.Si</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/dea amanda.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dhea Amanda, S.Si"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/hafizah.png" style="width: 360px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Hafizah Fikriah Waskan, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/hafizah.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Hafizah Fikriah Waskan, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/hanifatul.png" style="width: 360px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Hanifatul Maulida, S.Si</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/hanifatul.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Hanifatul Maulida, S.Si"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/meika.png" style="width: 360px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Meika Nurul Wahidah, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/meika.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Meika Nurul Wahidah, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/melda.png" style="width: 360px; height: 300px"  class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Melda Yanti, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/melda.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Melda Yanti, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/mutiara.png" style="width: 360px; height: 300px" class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Mutiara Erwani, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/mutiara.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Mutiara Erwani, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/nisrina.png" style="width: 360px; height: 300px"class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Nisrina Adriyanthi, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/nisrina.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Nisrina Adriyanthi, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/ria.png" style="width: 360px; height: 300px"class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Ria Margenta, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/ria.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Ria Margenta, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/riski utama.png" style="width: 360px; height: 300px"class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Riski Utama Putriani, S.Pd </h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/riski utama.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Riski Utama Putriani, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/rojihah.png" style="width: 360px; height: 300px"class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>ROJIHAH, M.Psi.,Psikolog</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/rojihah.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="ROJIHAH, M.Psi.,Psikolog"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/siska.png" style="width: 360px; height: 300px"class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Siska Amelia Seprianti, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/siska.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Siska Amelia Seprianti, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/siti raudhah.png" style="width: 360px; height: 300px"class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Siti Raudhah, S.Psi</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/siti raudhah.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Siti Raudhah, S.Psi><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/widhi astuti.png" style="width: 360px; height: 300px"class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Widhi Astuti, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/widhi astuti.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Widhi Astuti, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-teacher-at">
+        <img src="newfrontend/assets/img/gallery/yunina.png" style="width: 360px; height: 300px"class="img-fluid" alt="">
+        <div class="portfolio-info">
+          <h4>Yunina Karina, S.Pd</h4>
+          <p>Teacher At School</p>
+          <a href="newfrontend/assets/img/gallery/yunina.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Yunina Karina, S.Pd"><i class="bx bx-plus"></i></a>
+        </div>
+      </div>
+  </div>
+</section>
+
+
+  <!-- features1 section (content 6) -->
+  <section id="features1" class="features1">
+    <div class="container">
+      <div class="section-title">
+        <h2>Program After-School</h2><br>
+      </div>
+    </div>
+  </section>
+  <!-- End Counts Section -->
+
+<!-- ======= Materi belajar Section (content 5) ======= -->
+  <section id="features2" class="features2 text-center">
+    <div class="container" data-aos="fade-up">
+      <div class="features-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="feature-item">
+                  <div class="feature-block">
+                    <img src="newfrontend/assets/img/teacher/1.png" alt="img">
+                    <h1>Kajian Mahfudzot</h1>
+                    <p><h5>(Kata-kata mutiara Islami)</h5></p>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="swiper-slide">
+                <div class="feature-item">
+                  <div class="feature-block">
+                    <img src="newfrontend/assets/img/teacher/2.png" alt="img">
+                    <h1>Akhlak</h1>
+                    <p><h5>(Al-akhlak lil banin/banat)</h5></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="feature-item">
+                  <div class="feature-block">
+                    <img src="newfrontend/assets/img/teacher/3.png" alt="img">
+                    <h1>Hadits</h1>
+                    <p><h5>(Arba'in Nawawi)</h5></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="feature-item">
+                  <div class="feature-block">
+                    <img src="newfrontend/assets/img/teacher/4.png" alt="img">
+                    <h1>Fiqih Madzhab Syafi'i (Matan Gayah at-Taqrib)</h5></h1>
+                    <p><h5>* Muhadhoroh serta kultum dalam 3 bahasa (Inggris, Arab dan Indonesia)</h5></p>
+                    <p><h5>* Pemberian kosakata dan percakapan bahasa arab.</h5></p>
+                    <p><h5>* Fahmul Ayat (refleksi atas ayat-ayat Al-Qur'an)</h5></p>
+                    <p><h5>* Pelatihan Membaca Al-Qur'an dengan metode Tilawah</h5></p>
+                    <p><h5>* Appreciation Night (Pemberian Apresiasi mingguan bagi siswa yang meraih pencapaian tertentu).</h5></p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-pagination"></div>
+      </div>
+      <div class="container">
+        <div class="section-title">
+          <h2>5 New Streams
+          <br>Perminatan Jurusan</br>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End tips belajar Section -->
+
+  <!-- ======= Specials Section ======= -->
+  <section id="specials6" class="specials6">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Natural Science (NS) dan Social Science (SS) - Academic Stream</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Islamic Scholar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Professional Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Entrepreneurship</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Natural Science (NS) dan Social Science (SS) - Academic </h3>
+                    <p class="fst-italic">Merupakan stream yang berkonsentrasi pada kemampuan akademik.</p> 
+                    Di stream ini, siswa yang memiliki minat dan potensi dibidang akademik akan difasilitasi untuk dapat mengembangkan dan meningkatkan kemampuan akademik.
+                    <p>Terdapat enhancement class, dimana guru menggunakan pendekatan berbeda seperti project-based learning, problem-based learning, HOTS, dan Linear Extrapolation.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="newfrontend/assets/img/teacher/cn2.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Islamic Scholar</h3>
+                    <p class="fst-italic">Stream ini memberikan kesempatan dan waktu yang lebih banyak kepada siswa untuk memperdalam keislaman dengan mempelajari ilmu tentang
+                      Al-Qur'an, hadits, serta ilmu keislaman lainnya. Disini siswa juga memiliki kesempatan untuk meningkatkan hafalan Al-Qur'an.
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="newfrontend/assets/img/teacher/cn3.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Professional Skills</h3>
+                    <p class="fst-italic">Stream ini memberikan kesempatan kepada siswa untuk mengasah berbagai skill (keterampilan) diantaranya : art & design,
+                      robotic, programming/coding, animation, cinematography, sports.
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="newfrontend/assets/img/teacher/cn4.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Entrepreneurship</h3>
+                    <p class="fst-italic">Siswa memiliki kesempatan untuk mempelajari dan mengembangkan ide bisnis dan kemampuan kewirausahaan
+                      melalui kelas-kelas pembelajaran bisnis, mentoring, dan bimbingan dari mentor-mentor bisnis baik lokal maupun nasional.
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="newfrontend/assets/img/teacher/cn5.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Specials Section -->
+
+    
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer-teacher" class="footer-teacher">
+    <div class="footer-top">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>SMP/SMA Global Islamic School</h3>
+            <p>
+            Jl. Trans Kalimantan, Sungai Lumbah <br>
+            Alalak, Barito Kuala<br>
+            Kalimantan Selatan 70582 <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Organisasi</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">SOGIBS</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">CRC</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">CBT</a></li>
+
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Blog</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Ujian GIBS</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Biografi Tokoh</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Mata Pelajaran</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Pusat Bantuan</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Sosial Media</h4>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright @2021 <strong><span>GLOBAL ISLAMIC BOARDING SCHOOL</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="newfrontend/assets/vendor/aos/aos.js"></script>
+  <script src="newfrontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="newfrontend/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="newfrontend/assets/vendor/php-email-form/validate.js"></script>
+  <script src="newfrontend/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="newfrontend/assets/vendor/aos-2/aos.js"></script>
+  <script src="newfrontend/assets/vendor/bootstrap-2/js/bootstrap.bundle.min.js"></script>
+  <script src="newfrontend/assets/vendor/glightbox-2/js/glightbox.min.js"></script>
+  <script src="newfrontend/assets/vendor/isotope-layout-2/isotope.pkgd.min.js"></script>
+  <script src="newfrontend/assets/vendor/php-email-form-2/validate.js"></script>
+  <script src="newfrontend/assets/vendor/swiper-2/swiper-bundle.min.js"></script>
+  <script src="newfrontend/assets/vendor/waypoints-2/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="newfrontend/assets/js/main.js"></script>
+
+  
+
+</body>
+
+</html>
