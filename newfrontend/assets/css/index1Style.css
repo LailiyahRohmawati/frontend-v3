@@ -285,8 +285,9 @@
 --------------------------------------------------------------*/
 #hero-about {
   width: 100%;
-  height: 60vh;
-  background-image: linear-gradient(rgb(118, 80, 142),#482D57);
+  height: auto;
+  max-height: 60vh;
+  background-image: linear-gradient(#482D57,rgb(118, 80, 142));
   overflow: hidden;
   position: relative;
 }
@@ -1820,15 +1821,18 @@
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
+  color: #fff;
 }
 .services .icon-box h4 a {
-  color: #111;
+  color: #fff;
   transition: ease-in-out 0.3s;
 }
 .services .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
+  font-family: century gothic;
   margin-bottom: 0;
+  color: #fff;
 }
 .services .icon-box:hover {
   border-color: #fff;
@@ -1896,12 +1900,13 @@
 --------------------------------------------------------------*/
 .specials {
   overflow: hidden;
-  background-color: #C1A1D3;
+  background-color: rgb(118, 80, 142);
 }
 .specials .text1 h5{
   width: 100%;
   height: auto;
   height: auto;
+  color: #fff;
 }
 .specials .nav-tabs {
   border: 0;
@@ -2023,7 +2028,7 @@
 --------------------------------------------------------------*/
 .breadcrumbs-about {
   padding: 30px 0;
-  background-color: #482D57; 
+  background-color: rgb(118, 80, 142); 
   height: 100px;
 }
 .breadcrumbs-about h2 {
@@ -2085,7 +2090,7 @@
 # About Us
 --------------------------------------------------------------*/
 .about-us{
-  background-color: #916BBF;
+  background-color: rgb(118, 80, 142);
   padding: 20px;
 }
 .about-us .pictures img{
@@ -2103,6 +2108,7 @@
   font-weight: 200;
   font-family: century gothic;
   text-align: justify;
+  color: white;
 }
 .about-us .content p span{
   font-size: 34px;
@@ -2114,6 +2120,7 @@
   font-family: century gothic;
   text-align: center;
   padding: 10px;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -2374,8 +2381,9 @@
     padding: 20px;
   }
   .content1 img{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
     display:block;
     margin:auto;
   }
@@ -2408,7 +2416,7 @@
       right: 80px;
       font-size: 16px;
       bottom: -60px;
-      color: #000000;
+      color: #fff;
       font-weight: 500;
       padding: 5px;   
   }
