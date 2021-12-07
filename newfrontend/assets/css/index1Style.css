@@ -954,14 +954,6 @@
     overflow: hidden;
   }
 
-  /* hero teacher */
-  #hero-teacher{
-    background-color: #161E54; 
-  }
-  #hero-teacher .carousel-inner .carousel-item-teacher h1{
-    -webkit-text-stroke: 3px rgba(6, 138, 6, 0.623); 
-    color: rgb(255, 255, 255);
-  }
 
   /* breadcrumb */
   .breadcrumb{
@@ -2266,6 +2258,7 @@
     min-height: 200px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Ujian
