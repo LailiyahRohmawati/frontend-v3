@@ -71,6 +71,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 400;
   letter-spacing: 2px;
+  font-family: century gothic;
 }
 #header .logo h1 span {
   color: #e6d600;
@@ -287,83 +288,72 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 90vh;
+  height: 96vh;
   background-image: linear-gradient(rgb(41, 80, 252),#001275);
   overflow: hidden;
-  position: relative;
 }
-#hero-profile {
-  width: 100%;
-  height: 150px;
-  background-color: #161E54;
-  overflow: hidden;
+#hero .content{
+  margin-bottom: -20px;
 }
-
-/* breadcrumb */
-.breadcrumb{
-  padding: 0.75rem 0rem;
-  font-size: 0.9rem;
-}
-.breadcrumb  li.breadcrumb-item-profile.active{
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-}
-.breadcrumb-item-profile + .breadcrumb-item-profile::before {
- content: "»";
- padding-right: 0.2rem;
- color: rgb(255, 255, 255);
-}
-.breadcrumb-item-profile + .breadcrumb-item-profile {
-  padding-left: 0.2rem;
-  color: rgb(255, 255, 255);
-}
-.breadcrumb-item-profile a{
-  color: #ffffff;
-  text-decoration: none;
-}
-.breadcrumb-item-profile a:hover{
-  color: #2a6496;
-}
-.breadcrumb-container-profile{
-  height: 50px;
-  background-color: #72147E;
-}
-
-#hero h1{
-  margin-bottom: 20px;
+#hero .content h1{
   color:#e6d600;
-  font-size: 3vw;
+  font-size: 48px;
   font-weight: 500;
-  line-height: 3vw;
   font-family:  'century-gothic-regular',sans-serif;
 }
-#hero h1 span{
+#hero .content h2{
+  color: #fff;
+  font-size: 18px;
+  text-align: justify;
+  font-family:  'century-gothic-regular',sans-serif;
+}
+#hero .content h1 span{
   display: table-cell;
   animation: animate 1s linear infinite;
   color: white;
   font-family:  'century-gothic-regular',sans-serif;
-  line-height: 60px;
+  margin-bottom: 10px;
+  font-size: 57px;
+  font-weight: 500;
 }
-#hero h2 {
+#hero .content2 p{
+  color:#ffffff;
+  font-size: 18px;
+  line-height: 24px;
+  font-family:  'century-gothic-regular',sans-serif;
+}
+#hero .content2 h2 {
   color: #ffffff;
   margin-bottom: 30px;
-  font-size: 1vw;
+  font-size: 36px;
   text-align: justify;
   padding: 1px 0 20px 1;
   font-family: 'century-gothic-regular',sans-serif;
 }
-#hero h4{
-  margin-bottom: 70px;
+#hero .content3 {
+  margin: 90px;
+}
+#hero .content3 h1{
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-size: 52px;
+  text-align: justify;
+  padding: 1px 0 20px 1;
   font-family: 'century-gothic-regular',sans-serif;
-  color: white;
-  font-size: 1vw;
 }
-#hero h3{
-  margin-bottom: 200px;
-  font-family: 'century-gothic-regular', sans-serif;
-  color: white;
-  font-size: 1vw;
+#hero .content3 h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: justify;
+  padding: 1px 0 20px 1;
+  font-family: 'century-gothic-regular',sans-serif;
 }
+#hero .carousel-item .content2{
+  margin: 90px;
+}
+
+
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
   background-size: cover;
   background-position: center;
@@ -391,7 +381,9 @@ h1, h2, h3, h4, h5, h6 {
     background-size: 30%;
   }
   #hero .hero-img img {
-    width: 20%;
+    width: 100%;
+    height: auto;
+    max-width: 550px;
   }
 }
 @media (max-width: 768px) {
@@ -406,6 +398,11 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero .hero-img img {
     width: 70%;
+  }
+  #hero h2 span {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 575px) {
@@ -583,6 +580,37 @@ h1, h2, h3, h4, h5, h6 {
   top: 8.5px;
 }
 
+/* breadcrumb */
+.breadcrumb{
+  padding: 0.75rem 0rem;
+  font-size: 0.9rem;
+}
+.breadcrumb  li.breadcrumb-item-profile.active{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.breadcrumb-item-profile + .breadcrumb-item-profile::before {
+ content: "»";
+ padding-right: 0.2rem;
+ color: rgb(255, 255, 255);
+}
+.breadcrumb-item-profile + .breadcrumb-item-profile {
+  padding-left: 0.2rem;
+  color: rgb(255, 255, 255);
+}
+.breadcrumb-item-profile a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.breadcrumb-item-profile a:hover{
+  color: #2a6496;
+}
+.breadcrumb-container-profile{
+  height: 50px;
+  background-color: #72147E;
+}
+
+
 
 /*--------------------------------------------------------------
 # WORK (Content 2)
@@ -601,6 +629,7 @@ h1, h2, h3, h4, h5, h6 {
 .work img {
   filter: grayscale(100);
   width: 100%;
+  margin-top: 20px;
 }
 .work img:hover {
   filter: none;
@@ -673,7 +702,7 @@ transform: scale(1.1);
 
 
 
-/* Tips belajar Section (Content 5)
+/* Features Section (Content 5)
 --------------------------------*/
 #features {
   display: inline-block;
@@ -925,9 +954,7 @@ transform: scale(1.1);
   min-height: 200px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
   position: relative;
-  /* background: #e6d600; */
-  background-image: url('https://i.postimg.cc/ZqhN9mwm/testi.png');
-  background-size: cover;
+  background: #FFCC1D;
 }
 .testimonials .testimonial-item .testimonial-img {
   width: 5vw;
@@ -981,7 +1008,7 @@ transform: scale(1.1);
 
 
 /*--------------------------------------------------------------
-# Footer
+# Footer index2
 --------------------------------------------------------------*/
 #footer {
   padding: 0 0 30px 0;
